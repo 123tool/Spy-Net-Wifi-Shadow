@@ -1,2 +1,24 @@
-# Spy-Net-Wifi-Shadow
-Wireless Auditing, Deauthentication Testing, &amp; Network Vulnerability Analysis
+# 🌑 SPY-NET-SHADOW (NAGA-SHADOW)
+> **The Ultimate Wireless Security & Network Vulnerability Auditor**
+
+![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Termux%20(Root)-red.svg)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+![Status](https://img.shields.io/badge/Status-Premium%20Audit%20Tool-orange.svg)
+
+**SPY-NET-SHADOW** adalah framework audit keamanan jaringan tingkat lanjut yang dirancang untuk mendeteksi kerentanan pada infrastruktur Wi-Fi. Dikembangkan untuk profesional keamanan siber di bawah bendera **SPY-E & 123Tool**.
+
+## 🛡️ Core Capabilities
+- **Advanced Reconnaissance:** Pemindaian perangkat dengan identifikasi vendor otomatis.
+- **Deauth-Force:** Pengujian ketahanan client terhadap serangan deautentikasi (MFP detection).
+- **Traffic Analysis:** Sniffing paket data secara real-time untuk audit enkripsi.
+- **Vulnerability Testing (MITM):** Simulasi kerentanan ARP spoofing & DNS redirection untuk edukasi.
+- **Rogue AP Simulation:** Pengujian kesadaran pengguna melalui Captive Portal tiruan.
+
+## 📦 Installation & Setup
+
+### 🐧 Linux (Kali / Parrot / Ubuntu)
+```bash
+git clone [https://github.com/SPY-E/spy-net-shadow.git](https://github.com/SPY-E/spy-net-shadow.git)
+cd spy-net-shadow
+sudo chmod +x install.sh
+sudo ./install.sh
